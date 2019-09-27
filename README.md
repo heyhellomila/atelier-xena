@@ -1,9 +1,9 @@
-[![CircleCI](https://circleci.com/gh/milaroisin/atelier-xena/tree/master.svg?style=svg)](https://circleci.com/gh/milaroisin/atelier-xena/tree/master)
+# XENA - Social XR Research[![CircleCI](https://circleci.com/gh/milaroisin/atelier-xena/tree/master.svg?style=svg)](https://circleci.com/gh/milaroisin/atelier-xena/tree/master)
 
-# XENA - Social XR Research
-![AtelierXR Logo](https://raw.githubusercontent.com/milaroisin/atelier-xena/master/CourseAdmin/atelierlogo.jpg?token=ADX5G3O4BLYYRUYTVZC2VA25S55LQ)
+![atelier-logo](https://raw.githubusercontent.com/milaroisin/atelier-xena/master/CourseAdmin/atelierlogo.jpg?token=ADX5G3JTMK6TSVTWYXU4DHC5S6HOC)
 
-![XENA logo](https://raw.githubusercontent.com/milaroisin/atelier-sena/master/CourseAdmin/xena-banner.png?token=ADX5G3IBQVVM64IP5ZYLB2C5S55NQ)
+![xena-banner](https://raw.githubusercontent.com/milaroisin/atelier-xena/master/CourseAdmin/xena-banner.png?token=ADX5G3PQTUY3N2XIQVXDHF25S6HQ2)
+
 
 |Team Callisto (Voice Recognition / Eye-Tracking) | Team Joxer (Biometrics Motion / Computer Vision) |
 |--|--|
