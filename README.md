@@ -1,4 +1,6 @@
-# XENA - Social XR Research[![CircleCI](https://circleci.com/gh/milaroisin/atelier-xena/tree/master.svg?style=svg)](https://circleci.com/gh/milaroisin/atelier-xena/tree/master)
+# XENA - Social XR Research
+
+[![CircleCI](https://circleci.com/gh/milaroisin/atelier-xena/tree/master.svg?style=svg)](https://circleci.com/gh/milaroisin/atelier-xena/tree/master)
 
 ![atelier-logo](https://raw.githubusercontent.com/milaroisin/atelier-xena/master/CourseAdmin/atelierlogo.jpg?token=ADX5G3JTMK6TSVTWYXU4DHC5S6HOC)
 
