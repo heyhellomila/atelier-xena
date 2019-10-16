@@ -13,7 +13,7 @@ namespace ScriptExample
         void Start()
         {
             VRGestureRecognizer.Current.NodHandler += OnNod;
-            VRGestureRecognizer.Current.HeadshakeHandler += OnHeadshake;
+            //VRGestureRecognizer.Current.HeadshakeHandler += OnHeadshake;
         }
 
         void OnNod()

@@ -12,7 +12,9 @@ namespace FrameSynthesis.VR.Example
         {
             
             VRGestureRecognizer.Current.NodHandler += OnNod;
-            VRGestureRecognizer.Current.HeadshakeHandler += OnHeadshake;
+            VRGestureRecognizer.Current.HeadshakeLeftHandler += OnHeadshakeLeft;
+            VRGestureRecognizer.Current.HeadshakeRightHandler += OnHeadshakeRight;
+
         }
 
         void OnNod()
@@ -20,7 +22,11 @@ namespace FrameSynthesis.VR.Example
             gameObject.GetComponent<Rigidbody>().AddForce(0, 5, 0, ForceMode.Impulse);
         }
 
-        void OnHeadshake()
+        void OnHeadshakeLeft()
+        {
+            gameObject.GetComponent<Rigidbody>().AddForce(-5, 0, 0, ForceMode.Impulse);
+        }
+        void OnHeadshakeRight()
         {
             gameObject.GetComponent<Rigidbody>().AddForce(5, 0, 0, ForceMode.Impulse);
         }
