@@ -15,3 +15,9 @@
 |Patrick Pin | Daniel Privotsky
 
 **Team Lead:** Mila Roisin
+
+
+This application uses open source components:
+
+Project: VRGestureRecognizer
+Link: https://github.com/korinVR/VRGestureRecognizer
