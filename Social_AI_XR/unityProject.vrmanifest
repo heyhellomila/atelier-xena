@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.social_ai_xr.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "D:\\Projects\\CAPSTONE\\atelier-xena\\Social_AI_XR\\actions.json",
+      "action_manifest_path": "C:\\Users\\songt\\Desktop\\SOEN490\\atelier-xena\\Social_AI_XR\\actions.json",
       "strings": {
         "en_us": {
           "name": "Social_AI_XR [Testing]"
