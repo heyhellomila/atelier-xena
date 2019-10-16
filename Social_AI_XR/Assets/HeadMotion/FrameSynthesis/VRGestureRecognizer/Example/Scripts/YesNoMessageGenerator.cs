@@ -9,7 +9,7 @@ namespace FrameSynthesis.VR.Example
 
         void Start()
         {
-            VRGestureRecognizer.Current.NodHandler += OnNod;
+            //VRGestureRecognizer.Current.NodHandler += OnNod;
             //VRGestureRecognizer.Current.HeadshakeHandler += OnHeadshake;
         }
 

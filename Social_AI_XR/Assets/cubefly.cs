@@ -12,17 +12,23 @@ namespace FrameSynthesis.VR.Example
         void Start()
         {
             
-            VRGestureRecognizer.Current.NodHandler += OnNod;
+            VRGestureRecognizer.Current.NodDownHandler += OnNodDown;
+            //VRGestureRecognizer.Current.NodUpHandler += OnNodUp;
             VRGestureRecognizer.Current.HeadshakeLeftHandler += OnHeadshakeLeft;
             VRGestureRecognizer.Current.HeadshakeRightHandler += OnHeadshakeRight;
             textDebugger.text = "START";
         }
 
-        void OnNod()
+        void OnNodDown()
         {
             gameObject.GetComponent<Rigidbody>().AddForce(0, 5, 0, ForceMode.Impulse);
-            textDebugger.text = "Nodding";
+            textDebugger.text = "Nod Down";
         }
+        /*void OnNodUp()
+        {
+            gameObject.GetComponent<Rigidbody>().AddForce(0, 0, -5, ForceMode.Impulse);
+            textDebugger.text = "Nod Up";
+        }*/
 
         void OnHeadshakeLeft()
         {

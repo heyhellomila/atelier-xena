@@ -30,7 +30,8 @@ namespace FrameSynthesis.VR
         [SerializeField]
         float recognitionInterval = 0.5f;
 
-        public event Action NodHandler;
+        public event Action NodDownHandler;
+        //public event Action NodUpHandler;
         public event Action HeadshakeRightHandler;
         public event Action HeadshakeLeftHandler;
 
@@ -55,7 +56,8 @@ namespace FrameSynthesis.VR
             }
 
             // Recognize gestures
-            RecognizeNod();
+            RecognizeNodDown();
+            //RecognizeNodUp();
             RecognizeHeadshakeRight();
             RecognizeHeadshakeLeft();
         }
@@ -67,7 +69,7 @@ namespace FrameSynthesis.VR
                 sample.timestamp >= Time.time - endTime);
         }
 
-        void RecognizeNod()
+        void RecognizeNodDown()
         {
             try
             {
@@ -81,7 +83,7 @@ namespace FrameSynthesis.VR
                     if (prevGestureTime < Time.time - recognitionInterval)
                     {
                         prevGestureTime = Time.time;
-                        NodHandler?.Invoke();
+                        NodDownHandler?.Invoke();
                     }
                 }
             }
@@ -90,6 +92,30 @@ namespace FrameSynthesis.VR
                 // PoseSamplesWithin contains no entry
             }
         }
+
+       /* void RecognizeNodUp()
+        {
+            try
+            {
+                var averagePitch = PoseSamplesWithin(0.2f, 0.4f).Average(sample => sample.eulerAngles.x);
+                var maxPitch = PoseSamplesWithin(0.01f, 0.2f).Max(sample => sample.eulerAngles.x);
+                var pitch = PoseSamples.First().eulerAngles.x;
+
+                if (maxPitch - averagePitch < 10f &&
+                    Mathf.Abs(pitch - averagePitch) < 5f)
+                {
+                    if (prevGestureTime < Time.time - recognitionInterval)
+                    {
+                        prevGestureTime = Time.time;
+                        NodUpHandler?.Invoke();
+                    }
+                }
+            }
+            catch (InvalidOperationException)
+            {
+                // PoseSamplesWithin contains no entry
+            }
+        }*/
 
         void RecognizeHeadshakeLeft()
         {
