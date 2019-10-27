@@ -3,9 +3,9 @@
 
 [![GitHub License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/milaroisin/atelier-xena/blob/master/LICENSE) [![CircleCI](https://circleci.com/gh/milaroisin/atelier-xena/tree/master.svg?style=svg&circle-token=ee2a264a62213d4b247db6105fc34f0c3976b9f7)](https://circleci.com/gh/milaroisin/atelier-xena/tree/master)
 
-![atelier-logo](https://raw.githubusercontent.com/milaroisin/atelier-xena/master/CourseAdmin/atelierlogo.jpg?token=ADX5G3K3HBLTTZDTKETSWCC5UDFVQ)
+![atelier-logo](https://www.dropbox.com/s/i6x1pljvuatks4m/xena-banner.png?dl=0)
 
-![xena-banner](https://raw.githubusercontent.com/milaroisin/atelier-xena/master/CourseAdmin/xena-banner.png?token=ADX5G3MXOKGW4B4UXFP6A2S5UDGHA)
+![xena-banner](https://www.dropbox.com/s/q1nlj09e0gvk3q4/atelierlogo.jpg?dl=0)
 
 
 |Team Callisto (Voice Recognition / Eye-Tracking) | Team Joxer (Biometrics Motion / Computer Vision) |
